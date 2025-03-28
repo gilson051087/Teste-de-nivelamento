@@ -31,6 +31,3 @@ with zipfile.ZipFile(zip_file, "w") as zipf:
     for file in donwload_files:
         zipf.write(file, os.path.basename(file))
     print(f"Arquivos zipados: {zip_file}")
-
-
-
